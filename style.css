@@ -1,0 +1,160 @@
+/* <--------------title and navbar section-------------> */
+#title{
+  background-color: #ff4c68;
+}
+.name{
+  font-family: 'Wallpoet', cursive;
+}
+.container-fluid{
+  padding: 3% 5%;
+}
+.navbar{
+  padding: 3% 5%;
+}
+.nav-item{
+  padding: 0 2%;b
+}
+
+
+.heading1{
+  margin-top: 68px;
+  font-family: 'Wallpoet', cursive;
+  font-size: 2;
+  color: white;
+  size:3rem;
+  line-height: 1.5;
+  padding-top: 26%;
+}
+.para1{
+  color: white;
+}
+.iphone{
+  /* height:30%; */
+  /* transform: rotate(25deg); */
+  margin: 20% 0 0 15%;
+  /* right: 30%; */
+
+}
+.btn{
+  margin-top: 25px;
+}
+.btn1{
+margin-left: 50px;
+}
+
+
+/* <----------------features----------------> */
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 4%;
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* <------------- testimonial section----------------> */
+
+#testimonial{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.carousel-item{
+  padding: 5% 17%;
+}
+
+.testimonial-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 5%;
+}
+.testimonial-heading{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* <---------- Pricing section----------> */
+#pricing{
+  text-align: center;
+  padding: 5% 12%;
+}
+
+.pricing-gap{
+  margin-top: 2.5rem;
+}
+.pricing-colume{
+  padding: 3% 3%;
+}
+
+/* -------- @media query section ------------- */
+
+@media(max-width: 975px)  {
+  .iphone{
+    position: static;
+    transform: rotate(90deg);
+    margin: 10% 0 0 0;
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+
+
+/* -------- Download section ------- */
+
+#download{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 12%;
+  color: #fff;
+}
+.btn-padding{
+  margin-top: 4%;
+}
+
+
+
+/* --------Client section------- */
+
+#client{
+  text-align: center;
+  padding: 10% 12%;
+}
+.icon-margin{
+  margin: 5% 3% 0
+}
+
+/* ------footer section----- */
+#footer{
+  text-align: center;
+  padding: 2% 2%;
+}
+.icon-margin1{
+  margin: 0 1%;
+}
